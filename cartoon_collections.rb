@@ -22,5 +22,6 @@ def find_the_cheese(snacks)
   snacks.find do |x|
     if x == "#{cheese_types}"
       maybecheese << x
+    end
   end
 end
