@@ -10,8 +10,12 @@ def summon_captain_planet(elements)
 end
 
 def long_planeteer_calls(calls)
+  longwords = []
   calls.select do |x|
-    x>4?
+    if x > 4
+    longwords  << x
+  end
+end
 end
 
 def find_the_cheese# code an argument here
