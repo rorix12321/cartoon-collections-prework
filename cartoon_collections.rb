@@ -18,7 +18,9 @@ end
 def find_the_cheese(snacks)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  maybecheese = []
   snacks.find do |x|
-    x == cheese_types
+    if x == "#{cheese_types}"
+      maybecheese << x
   end
 end
