@@ -6,7 +6,6 @@ end
 
 def summon_captain_planet(elements)
   elements2 = elements.map { |x| x.uppercase+! }
-  
   return elements2
 end
 
