@@ -1,4 +1,4 @@
-def roll_call_dwarves(dwarves)
+def roll_call_dwarves(Dopey, Bashful, Sneezy, Sleepy, Happy, Grumpy, Doc)
   # Your code here
 end
 
