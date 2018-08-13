@@ -10,10 +10,8 @@ def summon_captain_planet(elements)
 end
 
 def long_planeteer_calls(calls)
-  longwords = []
   calls.any? do |x|
     calls.length > 4
-    longwords  << x
   end
 end
 
