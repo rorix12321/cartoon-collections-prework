@@ -1,5 +1,10 @@
-def roll_call_dwarves[Dopey, Bashful, Sneezy, Sleepy, Happy, Grumpy, Doc]
-  # Your code here
+def roll_call_dwarves[dwarves]
+  dewarves.each_with_index do |x|
+    puts x
+  end
+end
+
+
 end
 
 def summon_captain_planet# code an argument here
