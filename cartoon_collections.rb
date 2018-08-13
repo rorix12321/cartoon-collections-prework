@@ -11,8 +11,8 @@ end
 
 def long_planeteer_calls(calls)
   longwords = []
-  calls.select do |x|
-    if x > 4
+  calls.any? do |x|
+    calls.length > 4
     longwords  << x
   end
 end
