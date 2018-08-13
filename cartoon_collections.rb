@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(elements)
   element2 = []
-  elements.collect do |x|
+  elements.map { |x| x.upcase+! }
     element2 << "#{x.upcase+!}"
   end
 end
